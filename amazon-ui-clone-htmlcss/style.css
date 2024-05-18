@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(245, 245, 59);
+}
+#main-header-1{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+#header-div-1>img{
+    height: 50px;
+}
+#header-div-1>img:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+#header-div-2{
+    display: flex;
+}
+#header-div-2>i{
+    padding-top: 15px;
+    font-size: 20px;
+    margin-right: 6px;
+}
+#header-div-2-1{
+    color: gray;
+    font-weight: bold;
+}
+#header-div-2-2{
+    font-weight: bold;
+}
+#header-div-2:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+#header-div-3>select{
+    height: 40px;
+    border: none;
+    width: 50px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    padding: 4px;
+    background-color: rgb(160, 159, 159);
+}
+#header-div-3>select:hover,#header-div-3>input:hover{
+    border: 2px solid orange;
+}
+#header-div-3>input{
+    height: 40px;
+    width: 500px;
+    border: none;
+    margin-left: -4px;
+    padding-left: 4px;
+}
+#header-div-3>button{
+    height: 40px;
+    width: 40px;
+    margin-left: -4px;
+    border: none;
+    background-color: orange;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+#header-div-4>select{
+    background-color: inherit;
+    color: white;
+    height: 40px;
+    border: none;
+    background-color: black;
+}
+#header-div-4>select:hover,#header-div-5:hover,#header-div-6:hover,#header-div-7:hover{
+    padding: 4px;
+    border: 1px solid white;
+}
+#header-div-7{
+    display: flex;
+}
+#header-div-7>i{
+    font-size: 30px;
+}
+#header-div-7>p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+#main-header-2{
+    margin-top: 60px;
+    height: 50px;
+    width: 100%;
+    background-color: #0f2633;
+    color: white;
+    display: flex;
+    font-size: 20px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+#main-header-2>div{
+    padding-top: 10px;
+}
+#main-header-2>span{
+    padding-top: 10px;
+    margin-left: 10px;
+}
+#main-header-2>div:hover{
+    border: 1px solid white;
+}
+#main-header-2>span:hover{
+    border: 1px solid white;
+}
+main{
+    background-image: url('https://m.media-amazon.com/images/I/81KkrQWEHIL._SX3000_.jpg');
+    height: 400px;
+    width: auto;
+    background-size: cover;
+}
+#main-1{
+    background-color: white;
+    height: auto;
+    width: auto;
+    position: relative;
+    top: 280px;
+    margin: 0px 100px 0px 120px;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+#main-1 a{
+    text-decoration: none;
+    color: blue;
+}
+#section-1{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: wrap;
+}
+#section-1>div{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    padding-top: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 2px solid orange;
+}
+#section-1>div>h3{
+    font-size: 20px;
+}
+#main-inner-1{
+    display: flex;
+    height: 400px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+#main-inner-1>div{
+    height: 180px;
+    width: 150px;
+}
+#main-inner-1>div>figure>img{
+    height: 110px;
+    width: 140px;
+}
+#main-inner-2>div>figure>img{
+    margin-top: 20px;
+    height: 300px;
+    width: 280px;
+}
+#section-2{
+    height: auto;
+    width: auto;
+    background-color: white;
+    margin: 0px 30px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+#section-sub-1>h1{
+    font-size: 30px;
+    padding: 10px;
+}
+#section-sub-2{
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#section-sub-2>div{
+    height: 200px;
+    width: 200px;
+}
+#section-3{
+    height: 150px;
+    width: auto;
+    background-color: white;
+    border: 2px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+#section-3>button{
+    margin-top: 3px;
+    width: 250px;
+    background-color: orange;
+    height: 30px;
+    font-weight: bold;
+    border-radius: 3px;
+    border: 1px solid orange;
+}
+#section-4{
+    height: 30px;
+    width: auto;
+    background-color: #0f2633;
+    text-align: center;
+    padding-top: 5px;
+    border: 2px solid white;
+    border-radius: 6px;
+}
+#section-4>a{
+    text-decoration: none;
+    color: white;
+}
+footer{
+    height: auto;
+    width: auto;
+    background-color: #0f2633;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-wrap: wrap;
+}
+footer>div{
+    height: 100%;
+    width: 300px;
+    padding: 100px 0px;
+}
+footer>div>h3:hover{
+    text-decoration: underline;
+    color: blue;
+}
+footer>div>p:hover{
+    color: orange;
+}
+/* media */
+@media (max-width:1200px){
+    #header-div-3>input{
+        width: 200px;
+    }
+}
+@media (max-width:850px){
+    #header-div-4,#header-div-5,#header-div-6{
+        display: none;
+    }
+}
+@media (max-width:660px){
+    main{
+        background-image: url('https://m.media-amazon.com/images/I/71YTsbTxBsL._SX3000_.jpg');
+        height: 400px;
+        width: auto;
+        background-size: cover;
+    }
+}
+@media (max-width:560px){
+    #header-div-2,#header-div-3{
+        display: none;
+    }
+}
